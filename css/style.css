@@ -880,6 +880,7 @@ img {
     .ck-top-header__logo.scrolled {
         width: calc(106 / var(--width) * 100vw);
         height: max-content;
+        top: 20px;
     }
     
     /* ========== hero block ========== */
@@ -1192,5 +1193,6 @@ img {
         line-height: 40px;
         margin: 0 auto;
     }
+
 
 }
