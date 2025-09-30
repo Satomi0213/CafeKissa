@@ -689,10 +689,11 @@ img {
     background-color: var(--white);
     color: var(--black);
     font-family: "Lexend", "Arial", "Helvetica", "sans-serif";
-    font-size: min(18px, calc(12 / var(--width) * 100vw));
+    font-size: min(18px, calc(18 / var(--width) * 100vw));
     font-weight: var(--fw-R);
-    width: calc(200 / var(--width) * 100vw);
+    width: max-content;
     height: calc(32 / var(--width) * 100vw);
+    padding: calc(20 / var(--width) * 100vw);
 }
 
 .icon-insta-btn {
@@ -758,8 +759,8 @@ img {
 
 
 .ck-top-footer__sns-area svg {
-    width: calc(24 / var(--width) * 100vw);
-    height: calc(24 / var(--width) * 100vw);
+    width: min(32px, calc(32 / var(--width) * 100vw));
+    height: min(32px, calc(32 / var(--width) * 100vw));
 }
 
 @media (max-width: 430px) {
@@ -1196,3 +1197,4 @@ img {
 
 
 }
+
